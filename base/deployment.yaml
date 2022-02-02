@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: the-container
-        image: ko://github.com/sa46lll/docker/main
+        image: sa46lll/docker-image:latest
         ports:
         - containerPort: 8080
