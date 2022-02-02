@@ -3,7 +3,5 @@ kind: Kustomization
 images:
 - name: NEW_IMAGE_NAME
   newTag: 0.0.0.2
-- name: ko://github.com/sa46lll/docker/main
-  newTag: dev
 resources:
 - ../../base
